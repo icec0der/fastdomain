@@ -558,6 +558,34 @@ footer li {
 		display: none;
 	}
 
+	.advantages .card .images img:nth-child(6) {
+		left: 0;
+		top: 150px;
+	}
+
+	.advantages .card .images img:nth-child(7) {
+		left: 50%;
+		top: 150px;
+	}
+
+	.home_page_main_text {
+		font-size: 30px !important;
+	}
+
+	.images img {
+		width: 40% !important;
+	}
+
+	.custom-container .center-header h2 span img {
+		width: 130px;
+	}
+
+	.images {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
 	.swiper-button-prev-my-swiper {
 		top: 95% !important;
 		right: 0 !important;
@@ -609,6 +637,21 @@ footer li {
 	.responsive_on .container {
 		margin-bottom: 40px !important;
 		margin-top: 50px !important;
+	}
+	.dot-com {
+		display: none;
+	}
+
+	.doira,
+	.dot-com-2,
+	.dot-com-3,
+	.dot-com-4 {
+		display: none;
+	}
+
+	.index-page-cards {
+		display: grid;
+		grid-template-columns: auto;
 	}
 }
 
